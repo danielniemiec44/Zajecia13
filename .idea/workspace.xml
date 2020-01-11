@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81fd9fd7-57b2-44c4-ad63-614c33711fc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -67,7 +68,19 @@
       <option name="presentableId" value="Default" />
       <updated>1578742181665</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add .gitignore">
+      <created>1578772751267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578772751267</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Notifications" timestamp="1578743174588">
@@ -78,6 +91,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Vim_Emulation/0.0.1366.728@0.0.1366.728" timestamp="1578743285532" />
+    <state x="560" y="0" key="CommitChangelistDialog2" timestamp="1578772750157">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="560" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578772750157" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578751244758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -94,9 +111,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578751244758" />
+    <state x="429" y="87" key="RollbackChangesDialog" timestamp="1578773161877">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="429" y="87" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1578773161877" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1578772554919">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578772554919" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578773060950">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1578773060950" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1578773049654">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1578773049654" />
   </component>
 </project>
