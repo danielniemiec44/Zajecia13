@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81fd9fd7-57b2-44c4-ad63-614c33711fc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="81fd9fd7-57b2-44c4-ad63-614c33711fc1" name="Default Changelist" comment="Add Comparator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xdaanielx/zajecia13/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xdaanielx/zajecia13/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xdaanielx/zajecia13/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xdaanielx/zajecia13/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,12 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578772751267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix .gitignore">
+      <created>1578773445018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578773445018</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore" />
+    <MESSAGE value="Fix .gitignore" />
+    <MESSAGE value="Add Comparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Comparator" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Notifications" timestamp="1578743174588">
@@ -91,34 +101,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Vim_Emulation/0.0.1366.728@0.0.1366.728" timestamp="1578743285532" />
-    <state x="560" y="0" key="CommitChangelistDialog2" timestamp="1578772750157">
+    <state x="488" y="66" key="#com.intellij.ide.util.MemberChooser" timestamp="1579347949801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="560" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578772750157" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578751244758">
+    <state x="488" y="66" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579347949801" />
+    <state x="560" y="0" key="CommitChangelistDialog2" timestamp="1579349111326">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578751244758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578751244758">
+    <state x="560" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579349111326" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579349070031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578751244758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578751244758">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579349070031" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579349070031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578751244758" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578751244758">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579349070031" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579349070031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578751244758" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579349070031" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579349070031">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579349070031" />
     <state x="429" y="87" key="RollbackChangesDialog" timestamp="1578773161877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="429" y="87" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1578773161877" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1578772554919">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1579346452460">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578772554919" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579346452460" />
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578773060950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

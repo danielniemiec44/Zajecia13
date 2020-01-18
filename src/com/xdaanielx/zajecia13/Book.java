@@ -28,5 +28,23 @@ public class Book {
     }
 
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public Integer getPages() {
+        return pages;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+
+
 
 }

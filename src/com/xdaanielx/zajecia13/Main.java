@@ -1,6 +1,7 @@
 package com.xdaanielx.zajecia13;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -14,6 +15,16 @@ public class Main {
 
 
         ArrayList<Book> books = getRandomBooks(count);
+
+
+        books.sort(new Comparator<Book>() {
+            @Override
+            public int compare(Book o1, Book o2) {
+                return 0;
+            }
+        })
+
+
 
         System.out.println();
         for(Book book : books){
@@ -35,6 +46,9 @@ public class Main {
 
         return books;
     }
+
+
+
 
 
 
