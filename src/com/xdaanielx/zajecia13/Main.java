@@ -22,7 +22,7 @@ public class Main {
             public int compare(Book o1, Book o2) {
                 return 0;
             }
-        })
+        });
 
 
 
